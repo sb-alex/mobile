@@ -7,9 +7,3 @@ exports.index = function(req, res) {
     title: 'Home'
   });
 };
-
-exports.html5Background= function(req, res) {
-  res.render('html5-background', {
-    title: 'Landing Page'
-  });
-};
